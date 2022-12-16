@@ -1,0 +1,17 @@
+{
+  "name": "peasy",
+  "version": "0.0.1",
+  "description": "Make creating HTMLElements easy with the help of tag functions.",
+  "main": "index.js",
+  "author": "Simon Weidacher",
+  "license": "MIT",
+  "private": false,
+  "type": "module",
+  "scripts": {
+    "test": "yarn node --experimental-vm-modules $(yarn bin jest)"
+  },
+  "devDependencies": {
+    "jest": "^29.3.1",
+    "jest-environment-jsdom": "^29.3.1"
+  }
+}
