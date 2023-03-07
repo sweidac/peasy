@@ -1,9 +1,13 @@
 {
-  "name": "peasy",
+  "name": "@sweidac/peasy",
   "version": "0.0.1",
   "description": "Make creating HTMLElements easy with the help of tag functions.",
-  "main": "index.js",
-  "author": "Simon Weidacher",
+  "main": "dist/peasy.js",
+  "author": "Simon Weidacher <sweidac@weidautzel.de>",
+  "repository" : {
+    "type" : "git",
+    "url" : "https://github.com/sweidac/peasy"
+  },
   "license": "MIT",
   "private": false,
   "type": "module",
@@ -16,5 +20,9 @@
     "jest-environment-jsdom": "^29.3.1",
     "rollup": "^3.9.1",
     "rollup-plugin-terser": "^7.0.2"
-  }
+  },
+  "files" : [
+    "dist/peasy.js",
+    "dist/peasy.min.js"
+  ]
 }
